@@ -3,7 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () => {
-  return (<div>Test</div>);
+  return(
+    <div>
+      <label for="name" class="label">
+        Enter your name:
+      </label>
+      <input id="name" type="text" />
+    </div>);
 };
 
 // Take React component and show it on the screen
